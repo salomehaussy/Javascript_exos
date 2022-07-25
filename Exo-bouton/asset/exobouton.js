@@ -12,16 +12,3 @@ function myFunction(event) {
 
 }
 
-
-
-
-
-/*
-const mousemove = document.querySelector(".mousemove");
-window.addEventListener("mousemove", (e) => { //c'est le mouvement de la sourie / le e = evènement (la data des evènement)
-    console.log(e);  //page X et Page Y = l'emplacement de la sourie 
-    mousemove.style.left = e.pageX + "px"; // le chiffre dynamique (page X) + px
-    mousemove.style.top = e.page + "px";
-})*/
-
-//$ git remote add origin git@github.com:br1o/Basics.git
