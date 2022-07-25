@@ -1,4 +1,5 @@
 // Formulaire + Date
+
 document.getElementById("button_date").addEventListener("click", myFunction); // ecouteur du bouton click
 
 function myFunction(event) {
