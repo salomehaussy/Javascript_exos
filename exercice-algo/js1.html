@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Arrays</h1>
+<h2>The find() Method</h2>
+
+<p>Click "Test" to return the value of the first element in the array that has a value above this number:</p>
+
+<p><input type="text" id="nameToCheck" value="18"></p>
+
+<button onclick="myFunction()">Test</button>
+
+<p id="demo"></p>
+
+<script>
+var mytableau = [{nom :"Salomé", adresse:"mons" }, 
+                 {nom:"Océane", adresse:"cousolre"}, 
+                 {nom: "Karim", adresse: "Lens"},
+                 {nom:"Jimmy", adresse: "lille"},
+                 {nom:"Benoît",adresse: "maubeuge"},
+                 {nom:"Fréderic",adresse: "louvroil"},
+                 {nom:"Grégory",adresse: "haumont" },
+                 {nom:"Camille",adresse: "lille" },
+                 {nom:"Anthony",adresse: "fourmis"},
+                 {nom:"Cédric",adresse: "valenciennes"},
+                 {nom: "Stéphane",adresse: "maubeuge"},
+                 {nom: "Perrine",adresse: "louvroil"},
+                 {nom:"Théo",adresse: "haumont"},
+                 {nom:"Outman",adresse: "fourmis"},
+                 {nom: "Alim",adresse:"lens" },
+                 {nom:"Zakaria", adresse: "paris"}];
+
+    console.log (mytableau)
+
+function checkname(name) {
+  return name > document.getElementById("nameToCheck").value;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = mytableau.find(checkname);
+}
+</script>
+
+<p>The find() method is not supported in Internet Explorer (or earlier).</p>
+
+</body>
+</html>
