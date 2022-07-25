@@ -36,4 +36,4 @@ window.addEventListener("mousemove", (e) => { //c'est le mouvement de la sourie 
     mousemove.style.top = e.page + "px";
 })*/
 
-$ git remote add origin git@github.com:br1o/Basics.git
+//$ git remote add origin git@github.com:br1o/Basics.git
