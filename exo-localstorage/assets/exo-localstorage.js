@@ -1,7 +1,8 @@
 const local = JSON.parse(localStorage.getItem("user"));
 
 if (local!== null)
-  { formulaire.style.display = "none";
+  { 
+    formulaire.style.display = "none";
     // si le nom est null alors h1 va mettre le nom qui est rester dans le localStorage
   h1.textContent = `Bonjour ${local.nom} tu as ${local.age} ans`;
   }
