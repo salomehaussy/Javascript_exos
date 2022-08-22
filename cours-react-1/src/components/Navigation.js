@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, NevLink } from "react-router-dom"
+import { NavLink, NevLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
